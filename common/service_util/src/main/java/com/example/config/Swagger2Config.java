@@ -25,7 +25,6 @@ public class Swagger2Config {
                 //只显示api路径下的页面
                 .paths(Predicates.and(PathSelectors.regex("/api/.*")))
                 .build();
-
     }
 
     @Bean

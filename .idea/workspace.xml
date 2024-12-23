@@ -4,84 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="512bd6b3-7570-4760-be63-9db381a2cadf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common_util/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common_util/src/main/java/com/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service_util/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service_util/src/main/java/com/example/config/Swagger2Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/enums/AuthStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/enums/DictEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/enums/OrderStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/enums/PaymentStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/enums/PaymentTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/enums/RefundStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/model/acl/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/model/acl/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/model/acl/RolePermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/model/acl/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/model/acl/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/model/base/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/model/base/BaseMongoEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/model/cmn/Dict.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/model/cms/Banner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/model/hosp/BookingRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/model/hosp/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/model/hosp/Hospital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/model/hosp/HospitalSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/model/hosp/Schedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/model/order/OrderInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/model/order/PaymentInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/model/order/RefundInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/model/user/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/model/user/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/model/user/UserLoginRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/vo/acl/AssignVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/vo/acl/RoleQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/vo/acl/UserQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/vo/cmn/DictEeVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/vo/hosp/BookingScheduleRuleVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/vo/hosp/DepartmentQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/vo/hosp/DepartmentVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/vo/hosp/HospitalQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/vo/hosp/HospitalSetQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/vo/hosp/ScheduleOrderVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/vo/hosp/ScheduleQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/vo/msm/MsmVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/vo/order/OrderCountQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/vo/order/OrderCountVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/vo/order/OrderMqVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/vo/order/OrderQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/vo/order/SignInfoVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/vo/user/LoginVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/vo/user/RegisterVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/vo/user/UserAuthVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/example/yygh/vo/user/UserInfoQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_hosp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_hosp/src/main/java/com/example/yygh/ServiceHospitalApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_hosp/src/main/java/com/example/yygh/config/HospitalConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_hosp/src/main/java/com/example/yygh/controller/HospitalSetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_hosp/src/main/java/com/example/yygh/mapper/HospitalSetMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_hosp/src/main/java/com/example/yygh/mapper/xml/HospitalSetMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_hosp/src/main/java/com/example/yygh/service/HospitalSetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_hosp/src/main/java/com/example/yygh/service/impl/HospitalSetServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_hosp/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="512bd6b3-7570-4760-be63-9db381a2cadf" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/common/common_util/src/main/java/com/example/yygh/common/result/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_util/src/main/java/com/example/yygh/common/result/ResultCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service_util/src/main/java/com/example/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service_util/src/main/java/com/example/util/MD5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common_util/src/main/java/com/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service_util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service_util/src/main/java/com/example/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_util/src/main/java/com/example/config/Swagger2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_hosp/src/main/java/com/example/yygh/controller/HospitalSetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_hosp/src/main/java/com/example/yygh/controller/HospitalSetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_hosp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_hosp/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -107,11 +57,12 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/chenxi/Documents/hospital/common/service_util/src/main/java/com/example",
+    "last_opened_file_path": "/Users/chenxi/Documents/hospital/common/service_util/src/main/java/com/example/util",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.customizations",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -120,13 +71,24 @@
     ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common/service_util/src/main/java/com/example/util" />
+      <recent name="$PROJECT_DIR$/common/service_util/src/main/java/com/example/config/util" />
+      <recent name="$PROJECT_DIR$/common/common_util/src/main/java/com/example/yygh/common/result" />
+      <recent name="$PROJECT_DIR$/common/service_util/src/main/java/com/example/config" />
       <recent name="$PROJECT_DIR$/common/service_util/src/main/java/com/example" />
-      <recent name="$PROJECT_DIR$/model/src/main/java/com/example" />
-      <recent name="$PROJECT_DIR$/service/service_hosp/src/main/resources" />
-      <recent name="$PROJECT_DIR$/service/service_hosp/src/main/java/com/example" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="ServiceHospitalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -160,14 +122,41 @@
       <workItem from="1734680222469" duration="750000" />
       <workItem from="1734680977885" duration="755000" />
       <workItem from="1734681740311" duration="143000" />
-      <workItem from="1734681887837" duration="2115000" />
+      <workItem from="1734681887837" duration="3261000" />
+      <workItem from="1734685162095" duration="96000" />
+      <workItem from="1734685263262" duration="105000" />
+      <workItem from="1734685382087" duration="1763000" />
+      <workItem from="1734855634570" duration="145000" />
+      <workItem from="1734915391349" duration="17251000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1734684167093</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734684167093</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
